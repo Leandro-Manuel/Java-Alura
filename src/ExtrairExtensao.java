@@ -14,5 +14,9 @@ public class ExtrairExtensao {
             System.out.println("O arquivo não possui extensão.");
         }
         scanner.close();
+
+        /*
+        comentario
+         */
     }
 }
