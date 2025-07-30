@@ -1,3 +1,5 @@
+package BasicJava;
+
 import java.util.Scanner;
 public class VerificacaoAcessoSistema {
     public static void main(String[] args) {

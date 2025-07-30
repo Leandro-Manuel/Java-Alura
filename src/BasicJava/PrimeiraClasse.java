@@ -1,3 +1,5 @@
+package BasicJava;
+
 import java.net.StandardSocketOptions;
 
 public class PrimeiraClasse {

@@ -1,3 +1,5 @@
+package BasicJava;
+
 import java.util.Scanner;
 public class loop {
     public static void main(String[] args) {
@@ -18,13 +20,13 @@ public class loop {
 
         int numero = 10;
         while (numero < 15) {
-            System.out.println("Estou no loop while");
+            System.out.println("Estou no BasicJava.loop while");
             numero++;
         }
 
         int numero2 = 10;
         do {
-            System.out.println("Estou no loop do while");
+            System.out.println("Estou no BasicJava.loop do while");
             numero2++;
         } while(numero2 < 15);
 

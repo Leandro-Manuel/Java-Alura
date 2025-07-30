@@ -1,3 +1,5 @@
+package BasicJava;
+
 import java.util.Scanner;
 class Exercicio {
     static String MENSAGEM_MENU = "Ola, bem-vindos!";
