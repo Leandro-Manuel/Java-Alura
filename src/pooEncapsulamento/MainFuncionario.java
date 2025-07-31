@@ -7,5 +7,8 @@ public class MainFuncionario {
         funcionario1.exibirSalario();
         funcionario1.ajustarSalario(15);
         funcionario1.exibirSalario();
+        funcionario1.ajustarSalario(10);
+
+        System.out.println("salario: " + funcionario1.getSalario());
     }
 }
