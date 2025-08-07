@@ -7,4 +7,9 @@ public class Desenvolvedor extends Funcionario{
         super(nome,salario);
         this.stack = stack;
     }
+
+    @Override
+    public void mostrarInformacao() {
+        System.out.printf("\nDesenvolvedor: %s - Salário: R$%.2f - stack: %s",super.nome,super.salario,stack);
+    }
 }

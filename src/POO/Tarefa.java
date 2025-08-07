@@ -1,14 +1,15 @@
 package POO;
 
+import java.util.ArrayList;
+
 public class Tarefa {
+
+    String titulo;
     String descricao;
     boolean concluida;
 
     public void exibirStatus() {
-        String status;
-        if (concluida) {
-            status = "Concluída";
-        } else status = "pendente";
-        System.out.printf("\nTarefa: %s - Status: %s",descricao,status);
+        String status = concluida ? "concluída" : "pendente";
+        System.out.printf("\nTitulo: %s%nDescrição: %s - Status: %s",titulo,descricao,status);
     }
 }

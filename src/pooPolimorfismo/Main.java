@@ -2,14 +2,14 @@ package pooPolimorfismo;
 
 public class Main {
     public static void main(String[] args) {
-        Gerente gerente1 = new Gerente("Leandra",9500);
-        gerente1.setBonus(150.99);
-        gerente1.mostrarInformacao();
-        gerente1.reajustarSalario(1253.95);
-        gerente1.mostrarInformacao();
+        Funcionario gerente = new Gerente("Mario", 1518);
+        ((Gerente) gerente).setBonus(100);
+        gerente.mostrarInformacao();
+        gerente.reajustarSalario(1);
 
-        Desenvolvedor dev1 = new Desenvolvedor("Leandro",4559.80,"Java / SpringBoot");
-        dev1.mostrarInformacao();
-        dev1.reajustarSalario(10);
+        Funcionario desenvolvedor = new Desenvolvedor("Fernanda",1518,"Python");
+        desenvolvedor.mostrarInformacao();
+        desenvolvedor.reajustarSalario();
+
     }
 }
