@@ -11,5 +11,7 @@ public class Main {
         desenvolvedor.mostrarInformacao();
         desenvolvedor.reajustarSalario();
 
+        Funcionario funcionario = new Funcionario();
+
     }
 }
