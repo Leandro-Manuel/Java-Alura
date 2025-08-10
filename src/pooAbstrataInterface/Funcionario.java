@@ -22,4 +22,6 @@ public abstract class Funcionario {
         salario += 350;
         System.out.printf("%nNovo salário de %s com bonus: R$%.2f",nome,salario);
     }
+
+    public abstract void calcularPLR();
 }

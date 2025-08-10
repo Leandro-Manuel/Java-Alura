@@ -5,13 +5,12 @@ public class Main {
         Funcionario gerente = new Gerente("Mario", 1518);
         ((Gerente) gerente).setBonus(100);
         gerente.mostrarInformacao();
+        ((Gerente) gerente).aprovarProjeto("Automação de testes de software");
         gerente.reajustarSalario(1);
 
         Funcionario desenvolvedor = new Desenvolvedor("Fernanda",1518,"Python");
         desenvolvedor.mostrarInformacao();
         desenvolvedor.reajustarSalario();
-
-        Funcionario funcionario = new Funcionario();
 
     }
 }

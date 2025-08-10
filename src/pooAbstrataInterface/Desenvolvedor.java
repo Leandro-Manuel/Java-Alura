@@ -12,4 +12,9 @@ public class Desenvolvedor extends Funcionario{
     public void mostrarInformacao() {
         System.out.printf("\nDesenvolvedor: %s - Salário: R$%.2f - stack: %s",super.nome,super.salario,stack);
     }
+
+    @Override
+    public void calcularPLR() {
+        System.out.println("PLR do desenvolvedor");
+    }
 }
