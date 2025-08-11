@@ -32,5 +32,32 @@ public class Main {
         sms.enviar();
         Push push = new Push("Java básico","hoje eu aprendi POO","main.app");
         push.enviar();
+
+        Pagamento pagamento1 = new CartaoCredito(155.89);
+        pagamento1.confirmarPagamento();
+        Pagamento pagamento2 = new BoletoBancario(25.99);
+        pagamento2.confirmarPagamento();
+        Pagamento pagamento3 = new Pix(55.99);
+        pagamento3.confirmarPagamento();
+
+        Notification notificacao = new Notification();
+        notificacao.enviarMensagem("Atenção as escadas!");
+        notificacao.enviarMensagem("Leandro","Você precisa estudar Inglês");
+        notificacao.enviarMensagem("Manuel","Estudar POO",3);
+
+        Reserva reserva1 = new Reserva();
+        reserva1.reservar();
+        reserva1.reservar("16/11/2000",2);
+        Reserva reserva2 = new ReservaVip();
+        reserva2.reservar();
+
+        Relatorio relatorio = new Relatorio("Implementar a nova feature em C#","Vamos colocar no novo site que iremos desenvolver.");
+        relatorio.imprimir();
+
+        OperacaoBancaria deposito = new Deposito(35.99);
+        OperacaoBancaria saque = new Saque(30.99);
+        deposito.executar();
+        saque.executar();
+
     }
 }
