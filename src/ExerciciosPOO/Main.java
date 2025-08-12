@@ -59,5 +59,13 @@ public class Main {
         deposito.executar();
         saque.executar();
 
+        ArCondicionado arcondicionado = new ArCondicionado();
+        Luz luz = new Luz();
+        arcondicionado.ligar();
+        arcondicionado.desligar();
+
+        luz.ligar();
+        luz.ligar();
+
     }
 }
